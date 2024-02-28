@@ -19,7 +19,7 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', function () {
-    return view('app');
+    return redirect('/home');
 });
 
 Route::get('/home', [Home::class, 'render'])->name('home');
