@@ -24,7 +24,7 @@
         </div>
         <!-- Skills -->
         <div class="flex flex-col md:flex-row items-center justify-center w-full">
-            <div class="bg-gray-950 p-4 rounded-lg w-[600px] text-white m-4">
+            <div class="bg-gray-950 p-4 rounded-lg w-[400px] text-white m-4">
                 <div class="text-lg font-bold mb-4 text-center">Hard Skills</div>
                 <hr class="border-gray-600 my-4">
                 <div class="flex items-center justify-between">
@@ -64,7 +64,7 @@
                 </div>
             </div>
 
-            <div class="bg-gray-950 p-4 rounded-lg w-[600px] text-white m-4">
+            <div class="bg-gray-950 p-4 rounded-lg w-[400px] text-white m-4">
                 <div class="text-lg font-bold mb-4 text-center">Soft Skills</div>
                 <hr class="border-gray-600 my-4">
                 <div class="flex items-center justify-between">

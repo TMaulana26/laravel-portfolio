@@ -4,9 +4,9 @@
         @section('title', 'About Me')
         @section('content')
 
-        <div class="flex items-center min-h-screen justify-center py-2 font-serif"
+        <div class="flex items-center flex-col lg:flex-row min-h-screen justify-center py-2 font-serif"
             style="background-image: url('{{ asset ('img/BG-Home-rev.png' )}}')">
-            <div class="flex flex-col mx-3 max-w-lg rounded overflow-hidden shadow-lg bg-gray-900">
+            <div class="flex flex-col m-3 max-w-lg rounded overflow-hidden shadow-lg bg-gray-900">
                 <img class="w-full" src="{{asset('./img/PP2.jpg')}}" alt="Placeholder image">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2 text-white">About Me</div>
@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col mx-3 max-w-lg rounded overflow-hidden shadow-lg bg-gray-900">
+            <div class="flex flex-col m-3 max-w-lg rounded overflow-hidden shadow-lg bg-gray-900">
                 <img class="w-full" src="{{asset('./img/ABM2.jpg')}}" alt="about me image">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2 text-white">My Journey</div>

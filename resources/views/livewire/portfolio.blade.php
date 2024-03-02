@@ -4,9 +4,9 @@
         @section('title', 'Portfolio')
         @section('content')
 
-        <div class="flex items-center justify-center py-2 font-serif min-h-screen"
+        <div class="flex flex-col lg:flex-row items-center justify-center py-2 font-serif min-h-screen"
             style="background-image: url('{{ asset ('img/BG-Home.jpg' )}}')">
-            <div class="flex flex-col mx-3 max-w-lg rounded overflow-hidden shadow-lg bg-gray-900">
+            <div class="flex flex-col m-3 max-w-lg rounded overflow-hidden shadow-lg bg-gray-900">
                 <video class="w-full" autoplay loop muted>
                     <source src="{{asset('./video/showcase-simple-post.mp4')}}" type="video/mp4">
                     Your browser does not support the video tag.
@@ -36,7 +36,7 @@
                         class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#portfolio</span>
                 </div>
             </div>
-            <div class="flex flex-col mx-3 max-w-lg rounded overflow-hidden shadow-lg bg-gray-900">
+            <div class="flex flex-col m-3 max-w-lg rounded overflow-hidden shadow-lg bg-gray-900">
                 <video class="w-full" autoplay loop muted>
                     <source src="{{asset('./video/showcase-simple-tools.mp4')}}" type="video/mp4">
                     Your browser does not support the video tag.
@@ -64,7 +64,7 @@
                         class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#portfolio</span>
                 </div>
             </div>
-            <div class="flex flex-col mx-3 max-w-lg rounded overflow-hidden shadow-lg bg-gray-900">
+            <div class="flex flex-col m-3 max-w-lg rounded overflow-hidden shadow-lg bg-gray-900">
                 <img class="w-full" src="{{asset('./img/portfolio3.png')}}" alt="about me image">
                 <div class="px-6 py-4">
                     <div class="flex flex-row justify-end">
