@@ -7,7 +7,7 @@
 
     <title>@yield('title', 'Taufik M')</title>
     <link rel="stylesheet" href="{{secure_asset ('./build/assets/app-BvQDANkY.css')}}">
-    @vite('resources/css/app.css')
+    {{-- @vite('resources/css/app.css') --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     @livewireStyles
 </head>
@@ -28,7 +28,7 @@
     </footer>
 
     @livewireScripts
-    @vite('resources/js/app.js')
+    {{-- @vite('resources/js/app.js') --}}
     <script type="module" src="{{ secure_asset('./build/assets/app-TzMzxr23.js') }}"></script>
 </body>
 
