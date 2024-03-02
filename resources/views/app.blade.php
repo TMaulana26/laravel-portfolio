@@ -29,7 +29,7 @@
 
     @livewireScripts
     {{-- @vite('resources/js/app.js') --}}
-    <script type="module" src="{{ secure_asset('./build/assets/app-TzMzxr23.js') }}"></script>
+    <script type="module" src="{{ secure_asset('./build/assets/app-TzMzxr23.js') }}"></script> {{-- for js script --}}
 </body>
 
 </html>
