@@ -15,7 +15,8 @@
                     <div class="flex flex-row justify-end">
                         <div class="font-bold text-xl mb-2 text-white mr-auto">Simple Pos</div>
                         <a href="https://github.com/TMaulana26/simpel-pos" target="_blank">
-                            <i class="text-2xl fab fa-github text-white"></i>
+                            <i
+                                class="text-2xl fab fa-github text-white hover:text-gray-950 hover:bg-gray-300 rounded-full p-1"></i>
                         </a>
                     </div>
                     <p class="text-gray-300 text-base">
@@ -45,7 +46,8 @@
                     <div class="flex flex-row justify-end">
                         <div class="font-bold text-xl mb-2 text-white mr-auto">Simple Tools</div>
                         <a href="https://github.com/TMaulana26/simpel-tool" target="_blank">
-                            <i class="text-2xl fab fa-github text-white"></i>
+                            <i
+                                class="text-2xl fab fa-github text-white hover:text-gray-950 hover:bg-gray-300 rounded-full p-1"></i>
                         </a>
                     </div>
                     <p class="text-gray-300 text-base">
@@ -70,7 +72,8 @@
                     <div class="flex flex-row justify-end">
                         <div class="font-bold text-xl mb-2 text-white mr-auto">Coming Soon</div>
                         <a href="https://github.com/TMaulana26/" target="_blank">
-                            <i class="text-2xl fab fa-github text-white"></i>
+                            <i
+                                class="text-2xl fab fa-github text-white hover:text-gray-950 hover:bg-gray-300 rounded-full p-1"></i>
                         </a>
                     </div>
                     <p class="text-gray-300 text-base">

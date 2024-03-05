@@ -12,7 +12,7 @@
                             class="fab fa-github"></i></a>
                 </div>
             </div>
-            <div class="w-8 h-8 lg:w-10 lg:h-10 rounded-full overflow-hidden">
+            <div class="w-8 h-8 lg:w-10 lg:h-10 rounded-full overflow-hidden img-hover">
                 <img src="{{ asset('./img/logo.jpg')}}" alt="Profile Picture">
             </div>
             <div>

@@ -13,7 +13,7 @@
                         <form action="/contactme" method="POST" class="mb-4">
                             @csrf
                             <div class="flex items-center mb-4">
-                                <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                                <div class="w-12 h-12 rounded-full overflow-hidden mr-4 img-hover">
                                     <img src="{{ asset('./img/PP3.jpg')}}" alt="Profile Picture">
                                 </div>
                                 <div>
