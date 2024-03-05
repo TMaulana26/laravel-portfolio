@@ -31,7 +31,7 @@
 
     @livewireScripts
     {{-- @vite('resources/js/app.js') --}}
-    <script type="module" src="{{ secure_asset('./build/assets/app-DIOFTidr.js') }}"></script> for js script
+    <script type="module" src="{{ secure_asset('./build/assets/app-DIOFTidr.js') }}"></script>
 </body>
 
 </html>
